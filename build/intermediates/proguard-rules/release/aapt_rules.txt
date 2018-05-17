@@ -1,0 +1,21 @@
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\src\main\res\layout\activity_main.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\2744d0fc8282f3ef09792a2769836c14\res\layout\browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\build\intermediates\manifests\full\release\AndroidManifest.xml:41
+-keep class com.spotify.sdk.android.authentication.AuthCallbackActivity { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\build\intermediates\manifests\full\release\AndroidManifest.xml:30
+-keep class com.spotify.sdk.android.authentication.LoginActivity { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\build\intermediates\manifests\full\release\AndroidManifest.xml:21
+-keep class com.spotify.sdk.demo.DemoActivity { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\build\intermediates\manifests\full\release\AndroidManifest.xml:33
+-keep class com.spotify.sdk.demo.MainActivity { <init>(...); }
+
+# Referenced at C:\Users\SKBHATI\Downloads\DemoProject\src\main\res\layout\buttons.xml:14
+-keepclassmembers class * { *** onLoginButtonClicked(...); }
+
